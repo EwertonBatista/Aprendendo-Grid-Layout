@@ -374,11 +374,10 @@ p {
 
 .imagem-1:hover, .imagem-2:hover, .imagem-3:hover{
     filter: blur(0px);
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 1;
 }
 
 .numero {
     transition: 1s;
-    
 }
