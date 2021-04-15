@@ -363,3 +363,22 @@ p {
     text-align: center;
     padding: 30px;
 }
+
+
+
+
+.imagem-1, .imagem-2, .imagem-3 {
+    filter: blur(2px);
+    transition: 1s;
+}
+
+.imagem-1:hover, .imagem-2:hover, .imagem-3:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.numero {
+    transition: 1s;
+    
+}
