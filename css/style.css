@@ -5,9 +5,8 @@ body, p, h1, ul, li, blockquote {
 
 img {
     display: block;
-    max-width: 100%;
-    border-radius: 5px;
     width: 100%;
+    border-radius: 5px;
 }
 
 /* 
@@ -209,6 +208,13 @@ a {
     grid-gap: 30px;
 }
 
+@media (max-width:600px){
+    .content {
+        grid-template-columns: auto;
+    }
+}
+
+
 .col-wide {
     grid-column: 1 / -1;
 }
@@ -224,6 +230,8 @@ a {
     
 
 }
+
+
 
 
 
@@ -348,6 +356,7 @@ p {
     padding: 30px;
     box-shadow: 5px 5px 15px 0 #B07DFB;
     grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 /* FOOTER */
